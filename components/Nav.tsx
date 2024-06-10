@@ -39,7 +39,7 @@ export const Nav = () => {
         <Button
           onClick={() => {
             window.open(
-              ,
+              pkg.homepage,
               "_blank",
               "noopener noreferrer"
             );
