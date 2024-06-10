@@ -5,6 +5,7 @@ import HumeLogo from "./logos/Hume";
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import Github from "./logos/GitHub";
+import pkg from '@/package.json';
 
 export const Nav = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -38,7 +39,7 @@ export const Nav = () => {
         <Button
           onClick={() => {
             window.open(
-              "https://github.com/humeai/hume-evi-vercel-starter",
+              ,
               "_blank",
               "noopener noreferrer"
             );
