@@ -1,4 +1,5 @@
 export const expressionColors = {
+  Admiration: "#ffc58f",
   Adoration: "#ffc6cc",
   "Aesthetic Appreciation": "#e2cbff",
   Amusement: "#febf52",
