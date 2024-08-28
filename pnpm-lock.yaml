@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@humeai/voice-react':
-        specifier: 0.1.11-beta.6
-        version: 0.1.11-beta.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 0.1.11
+        version: 0.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-slot':
         specifier: ^1.0.2
         version: 1.0.2(@types/react@18.3.3)(react@18.3.1)
@@ -135,8 +135,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@humeai/voice-react@0.1.11-beta.6':
-    resolution: {integrity: sha512-LcPCOn6hyZ+3uueg4vd2/cAcWwTARFQWc3JnSdd8F3HlR0BXee97xrTDbBswvSSt+l8ArfX/sFSykO4KjHfanw==}
+  '@humeai/voice-react@0.1.11':
+    resolution: {integrity: sha512-qmCGmhZx+m8tDjuHHP+2r3p+GXsM10LhCvVPGvVoFQs23m/ZaKxL8UawPCfsgokqaH42imuXR7kpjhbZHycjAA==}
     peerDependencies:
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
@@ -2023,7 +2023,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@humeai/voice-react@0.1.11-beta.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@humeai/voice-react@0.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       date-fns: 3.6.0
       hume: 0.8.6
