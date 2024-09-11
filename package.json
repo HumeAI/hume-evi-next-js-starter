@@ -20,7 +20,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "geist": "^1.3.0",
-    "hume": "^0.8.8",
+    "hume": "^0.8.10",
     "lucide-react": "^0.394.0",
     "next": "14.2.3",
     "react": "^18",
@@ -41,6 +41,5 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  },
-  "packageManager": "pnpm@8.15.6+sha512.77b89e9be77a2b06ad8f403a19cae5e22976f61023f98ad323d5c30194958ebc02ee0a6ae5d13ee454f6134e4e8caf29a05f0b1a0e1d2b17bca6b6a1f1159f86"
+  }
 }
