@@ -20,6 +20,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "geist": "^1.3.0",
+    "hume": "^0.8.10",
     "lucide-react": "^0.394.0",
     "next": "14.2.3",
     "react": "^18",
