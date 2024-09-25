@@ -1,5 +1,5 @@
 import 'server-only';
-import "server-only";
+
 import { fetchAccessToken } from "hume";
 
 export const getHumeAccessToken = async () => {
