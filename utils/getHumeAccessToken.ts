@@ -1,5 +1,5 @@
 import 'server-only';
-import { fetchAccessToken } from "@humeai/voice";
+import { fetchAccessToken } from "hume";
 
 export const getHumeAccessToken = async () => {
     const accessToken = await fetchAccessToken({
