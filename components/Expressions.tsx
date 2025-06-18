@@ -21,18 +21,18 @@ export default function Expressions({
   return (
     <div
       className={
-        "text-xs p-3 w-full border-t border-border flex flex-col md:flex-row gap-3"
+        "text-xs p-3 w-full grid grid-cols-1 md:grid-cols-3 gap-3"
       }
     >
       {top3.map(([key, value]) => (
         <div key={key} className={"w-full overflow-hidden"}>
           <div
-            className={"flex items-center justify-between gap-1 font-mono pb-1"}
+            className={"flex items-center justify-between gap-1 pb-1"}
           >
-            <div className={"font-medium truncate"}>
+            <div className={"font-medium truncate tracking-tight"}>
               {expressionLabels[key]}
             </div>
-            <div className={"tabular-nums opacity-50"}>{value.toFixed(2)}</div>
+            <div className={"tabular-nums opacity-50 tracking-tight"}>{value.toFixed(2)}</div>
           </div>
           <div
             className={"relative h-1"}
