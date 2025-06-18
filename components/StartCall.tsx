@@ -29,7 +29,7 @@ export default function StartCall() {
               }}
             >
               <Button
-                className={"z-50 flex items-center gap-1.5"}
+                className={"z-50 flex items-center gap-1.5 rounded-full"}
                 onClick={() => {
                   connect()
                     .then(() => {})
@@ -39,9 +39,8 @@ export default function StartCall() {
               >
                 <span>
                   <Phone
-                    className={"size-4 opacity-50"}
-                    strokeWidth={2}
-                    stroke={"currentColor"}
+                    className={"size-4 opacity-50 fill-current"}
+                    strokeWidth={0}
                   />
                 </span>
                 <span>Start Call</span>
