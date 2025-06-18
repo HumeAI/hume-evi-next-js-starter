@@ -5,6 +5,7 @@ import Messages from "./Messages";
 import Controls from "./Controls";
 import StartCall from "./StartCall";
 import { ComponentRef, useRef } from "react";
+import { toast } from "sonner";
 
 export default function ClientComponent({
   accessToken,
@@ -41,6 +42,9 @@ export default function ClientComponent({
               });
             }
           }, 200);
+        }}
+        onError={(error) => {
+          toast.error(error.message);
         }}
       >
         <Messages ref={ref} />
