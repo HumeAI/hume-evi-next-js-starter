@@ -4,6 +4,8 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { cn } from "@/utils";
+import { Toaster } from "@/components/ui/sonner";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Hume AI - EVI - Next.js Starter",
@@ -24,8 +26,16 @@ export default function RootLayout({
           "flex flex-col min-h-screen"
         )}
       >
-        <Nav />
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Nav />
+          {children}
+          <Toaster position="top-center" richColors={true} />
+        </ThemeProvider>
       </body>
     </html>
   );
