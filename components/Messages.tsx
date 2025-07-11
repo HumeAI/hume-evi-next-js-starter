@@ -2,7 +2,7 @@
 import { cn } from "@/utils";
 import { useVoice } from "@humeai/voice-react";
 import Expressions from "./Expressions";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { ComponentRef, forwardRef } from "react";
 
 const Messages = forwardRef<

@@ -1,9 +1,10 @@
 import { useVoice } from "@humeai/voice-react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { Button } from "./ui/button";
 import { Phone } from "lucide-react";
+import { toast } from "sonner";
 
-export default function StartCall() {
+export default function StartCall({ configId, accessToken }: { configId?: string, accessToken: string }) {
   const { status, connect } = useVoice();
 
   return (
@@ -31,9 +32,16 @@ export default function StartCall() {
               <Button
                 className={"z-50 flex items-center gap-1.5 rounded-full"}
                 onClick={() => {
-                  connect()
+                  connect({ 
+                    auth: { type: "accessToken", value: accessToken },
+                    configId, 
+                    // additional options can be added here
+                    // like resumedChatGroupId and sessionSettings
+                  })
                     .then(() => {})
-                    .catch(() => {})
+                    .catch(() => {
+                      toast.error("Unable to start call");
+                    })
                     .finally(() => {});
                 }}
               >

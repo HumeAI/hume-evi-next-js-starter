@@ -25,8 +25,6 @@ export default function ClientComponent({
       }
     >
       <VoiceProvider
-        auth={{ type: "accessToken", value: accessToken }}
-        configId={configId}
         onMessage={() => {
           if (timeout.current) {
             window.clearTimeout(timeout.current);
@@ -49,7 +47,7 @@ export default function ClientComponent({
       >
         <Messages ref={ref} />
         <Controls />
-        <StartCall />
+        <StartCall configId={configId} accessToken={accessToken} />
       </VoiceProvider>
     </div>
   );
