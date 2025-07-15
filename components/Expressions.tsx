@@ -1,7 +1,7 @@
 "use client";
 import { expressionColors, isExpressionColor } from "@/utils/expressionColors";
 import { expressionLabels } from "@/utils/expressionLabels";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { CSSProperties } from "react";
 import * as R from "remeda";
 
