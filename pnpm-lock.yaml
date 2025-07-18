@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@humeai/voice-react':
-        specifier: ^0.2.0
-        version: 0.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.2.1
+        version: 0.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-slot':
         specifier: ^1.2.3
         version: 1.2.3(@types/react@18.3.5)(react@18.3.1)
@@ -166,8 +166,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@humeai/voice-react@0.2.0':
-    resolution: {integrity: sha512-E1nbohuvdLDGt1vfnVy2h+ZjZp00Q21ehv6wucC2rMXcD16/+jlTvwrSWAb5hUVP1sZiuwfUVNjKP1Sm3PWf7A==}
+  '@humeai/voice-react@0.2.1':
+    resolution: {integrity: sha512-Lv7UPLP/Qd1f6EEgTTA+x3W6oRgr4uAWDaO92rIyf+DFdSfF2unPAmv0m/DZUAo/wHFo9fBWCglKBhWIFdnyjw==}
     peerDependencies:
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
@@ -1816,8 +1816,8 @@ packages:
   hume@0.11.2:
     resolution: {integrity: sha512-m1ssl62aMeEGqft/qS/85vDrTXPrt8kfqiZP1ktSCegPq/D9XqJmj9WHDMZ4K+N9kacsMj9N4CKrtA1xiDCI3A==}
 
-  hume@0.11.4:
-    resolution: {integrity: sha512-DFS7qJhKWF3Cbos0cgiR6DLXYW17yJi8PpC0KSmtUqR2zr05CnbowYjVF2NXhWDzvKuJnARBeKu5AiNTmaO97A==}
+  hume@0.12.1:
+    resolution: {integrity: sha512-6/u3lUVMIr/1BmzI2HLq+BoVW1bTR1m+5TOrxqfSPrMAfCXIHkZo+OHArZEA/gCqox02fvwDnmgXxTvPhRfnGg==}
 
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
@@ -2881,10 +2881,10 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@humeai/voice-react@0.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@humeai/voice-react@0.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       date-fns: 3.6.0
-      hume: 0.11.4
+      hume: 0.12.1
       meyda: 5.6.3
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -4763,7 +4763,7 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  hume@0.11.4:
+  hume@0.12.1:
     dependencies:
       form-data: 4.0.0
       form-data-encoder: 4.0.2
