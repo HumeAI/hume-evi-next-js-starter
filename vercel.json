@@ -1,0 +1,12 @@
+{
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_HUME_CONFIG_ID": "aaf546d5-e237-4d73-a9a6-96ec2a407d55",
+    "HUME_API_KEY": "@hume_api_key",
+    "HUME_SECRET_KEY": "@hume_secret_key"
+  }
+} 
